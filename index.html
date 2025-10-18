@@ -1,39 +1,13 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ResiFix Maintenance Manager</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'brand-blue': '#1a73e8',
-              'brand-light-blue': '#e8f0fe',
-              'brand-gray': '#f1f3f4',
-              'brand-text': '#5f6368',
-            },
-          }
-        }
-      }
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
-  <body class="bg-brand-gray">
+  </head>
+  <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <!-- Vite will handle this module during dev and build -->
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
 </html>

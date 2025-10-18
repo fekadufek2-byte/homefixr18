@@ -1,0 +1,5 @@
+{
+  "name": "ResiFix Maintenance Manager",
+  "description": "A web application for managing residential maintenance requests, allowing users to create, track, and complete tasks, and generate PDF reports of the work done.",
+  "requestFramePermissions": []
+}
